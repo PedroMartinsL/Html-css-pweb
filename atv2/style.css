@@ -1,0 +1,80 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 15% 1fr 10%;
+}
+
+header {
+    border: 5px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    border: 5px solid rgb(200, 255, 0);
+    align-self: center;
+    width: 60%;
+    height: 60%;
+}
+
+main {
+    border: 5px solid rgb(255, 0, 0);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+main section {
+    border: 5px solid peru;
+    min-height: 20%;
+}
+
+section.holdArticles {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 5px solid slategray;
+    height: 70px;
+}
+
+aside {
+    border: 5px solid blueviolet;
+    grid-area: 1/2/4/3;
+    display: flex;
+    flex-direction: column;
+}
+
+aside section {
+    border: 5px solid black;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+footer {
+    border: 5px solid rgb(209, 249, 66);
+}
+
+@media (max-width: 800px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        grid-area: 4;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+
+    .artSec {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 5px;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+
+header {
+    border: 5px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    border: 5px solid yellow;
+    width: 70%;
+    color: yellow;
+}
+
+section {
+    border: 5px solid red;
+    height: 0px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+section.holdArticles {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+div.startMain {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px;
+}
+
+main {
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+article {
+    border: 5px solid blue;
+    height: 70px;
+}
+
+footer {
+    border: 5px solid green;
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    border: 5px solid rgb(129, 129, 24);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+aside section {
+    border: 5px solid black;
+}
+
+@media (max-width: 800px) {
+    main {
+        display: block;
+    }
+
+    aside {
+        grid-area: 4;
+        flex-direction: column;
+        overflow: scroll;
+        width: auto; 
+        /* perguntar pq width 100 ele ultrapassa */
+    }
+
+    .asiSec {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section {
+        min-height: 150px;
+        min-width: 150px;
+    }
+}
