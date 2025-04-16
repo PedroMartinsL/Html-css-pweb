@@ -10,3 +10,5 @@ Durante o desenvolvimento, trabalhamos tanto com **Flexbox** quanto com a combin
 - 🔹 Além disso, o uso de Grid ajudou bastante na responsividade da página, permitindo uma adaptação mais fluida entre diferentes tamanhos de tela.
 
 No geral, a combinação dos dois recursos resultou em um layout mais organizado e semântico, alinhado com os objetivos da atividade: **entender a estruturação de páginas web e aplicar boas práticas com HTML5 e CSS moderno**.
+
+#GitHub Page: https://pedromartinsl.github.io/Html-css-pweb/
