@@ -12,3 +12,6 @@ Durante o desenvolvimento, trabalhamos tanto com **Flexbox** quanto com a combin
 No geral, a combinação dos dois recursos resultou em um layout mais organizado e semântico, alinhado com os objetivos da atividade: **entender a estruturação de páginas web e aplicar boas práticas com HTML5 e CSS moderno**.
 
 #GitHub Page: https://pedromartinsl.github.io/Html-css-pweb/
+
+- Flexbox: complemente a URL com /atv1
+- Grid + FlexBox: complemente a URL com /atv2
